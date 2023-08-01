@@ -54,15 +54,8 @@ header ul{
 li{
     margin-bottom: 15px;
 }
-li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    transition: background-color 0.5s, color 0.5s;
-}
-li a:hover{
-    color: rgb(116, 216, 166);
-}
+
+
 
 address{
     width: 350px;
@@ -134,4 +127,13 @@ p {
 }
 .cv-download-link:active{
     text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: background-color 0.5s, color 0.5s;
+}
+li a:hover{
+    color: rgb(116, 216, 166);
 }
