@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Fraunces:opsz,wght@9..144,100&family=Hanken+Grotesk:wght@100&family=Montserrat:wght@100&family=Outfit:wght@300;400;600&family=Overpass:ital,wght@0,400;0,900;1,500&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto&display=swap");
+
+.slideBox {
+  width: 900px;
+  height: 450px;
+  border: 2px solid #d1d1d1;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.parameters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headers {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #3b3939;
+  width: 110px;
+}
+.value {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.currency {
+  padding-right: 10px;
+  color: #b4b4b4;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+}
+.slideRangeOfAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.slideRangeOfAmount p {
+  margin: 4px 5px;
+  color: #b4b4b4;
+  font-size: 12px;
+}
+
+.range-input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 500px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 10px;
+  background: #d1d1d1;
+}
+
+.range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: whitesmoke;
+  border: 2px solid #44a844;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.range-input::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #f50;
+  border-radius: 50%;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.range-input2 {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 500px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 10px;
+  background: #d1d1d1;
+}
+
+.range-input2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: whitesmoke;
+  border: 2px solid #44a844;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.range-input2::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #f50;
+  border-radius: 50%;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
